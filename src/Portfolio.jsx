@@ -216,18 +216,20 @@ export default function Portfolio() {
                 Firebase
               </span>
               <span className="bg-red-900/40 text-red-300 text-sm px-3 py-1 rounded-full">
-               Admin panel
+                Admin panel
               </span>
             </div>
             <div className="flex gap-4">
               <a
                 href="https://bistro-boss-38069.web.app"
+                target="_blank"
                 className="text-blue-400 hover:underline hover:text-blue-300 transition"
               >
                 Live
               </a>
               <a
                 href="https://github.com/mehedi1437/bistro-boss-client"
+                target="_blank"
                 className="text-blue-400 hover:underline hover:text-blue-300 transition"
               >
                 GitHub
