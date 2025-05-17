@@ -66,7 +66,7 @@ export default function Portfolio() {
             </li>
           </ul>
           <a
-            href="/resume .pdf"
+            href="/resume.pdf"
             download
             className="inline-block border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold px-6 py-2 rounded-full transition duration-300"
           >
