@@ -66,7 +66,8 @@ export default function Portfolio() {
             </li>
           </ul>
           <a
-            href="../public/resume.pdf"
+            href="https://drive.google.com/file/d/19tqPOZCZIfABW8zAvqn7NOA8Ile4ILA1/view?usp=drive_link"
+            target="_blank"
             download
             className="inline-block border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold px-6 py-2 rounded-full transition duration-300"
           >
@@ -101,37 +102,49 @@ export default function Portfolio() {
         )}
       </nav>
       {/* Hero Section */}
-      <section className="relative flex flex-col items-center justify-center text-center py-20 px-4 overflow-hidden bg-[#0f172a] text-white h-screen">
-        {/* Dotted Grid Background */}
-        <div className="absolute inset-0 z-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+      <section className="relative flex flex-col md:flex-row items-center justify-center gap-10 text-white py-20 px-6 bg-[#0f172a] overflow-hidden min-h-screen">
+        {/* Background Grid */}
+        <div className="absolute inset-0 z-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]" />
 
-        {/* Fixed Glowing Blobs */}
-        <div className="absolute w-96 h-96 bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 opacity-20 blur-3xl rounded-full top-1/3 -left-20 animate-none z-0"></div>
-        <div className="absolute w-72 h-72 bg-gradient-to-br from-blue-500 via-purple-500 to-indigo-500 opacity-25 blur-2xl rounded-full bottom-10 right-20 animate-pulse z-0"></div>
-        <div className="absolute w-60 h-60 bg-gradient-to-br from-green-400 via-teal-500 to-cyan-400 opacity-20 blur-2xl rounded-full top-1/3 right-1/4 animate-pulse z-0"></div>
+        {/* Glow Blobs */}
+        <div className="absolute w-96 h-96 bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 opacity-20 blur-3xl rounded-full top-1/4 -left-20 z-0" />
+        <div className="absolute w-72 h-72 bg-gradient-to-br from-blue-500 via-purple-500 to-indigo-500 opacity-25 blur-2xl rounded-full bottom-10 right-20 z-0" />
+        <div className="absolute w-60 h-60 bg-gradient-to-br from-green-400 via-teal-500 to-cyan-400 opacity-20 blur-2xl rounded-full top-1/4 right-1/4 z-0" />
 
-        {/* Content */}
-        <div className="relative z-10 flex flex-col items-center">
+        {/* Left: Image */}
+        <div className="relative z-10 w-full md:w-1/2 flex justify-center">
           <img
-            src="https://i.ibb.co.com/Jw6DSWCb/IMG-20250428-133709-628.jpg"
-            alt="Emon"
-            className="w-32 h-32 rounded-full mb-4 shadow-lg object-cover"
+            src="https://i.ibb.co/84x89yQg/Screenshot-8.png"
+            alt="Mehedi Hasan Emon"
+            className="w-80 h-96 object-cover rounded-lg border-4 border-blue-600 shadow-lg transform hover:scale-105 transition duration-300"
           />
+        </div>
+
+        {/* Right: Content */}
+        <div className="relative z-10 w-full md:w-1/2 text-center md:text-left">
+          <h1 className="text-xl md:text-5xl font-bold mb-4">
+            Frontend MERN Stack Web Developer
+          </h1>
           <ReactTyped
-            className="text-xl md:text-2xl mb-6 text-blue-600"
+            className="text-xl md:text-2xl mb-4 text-blue-400"
             strings={[
               "Frontend Web Developer",
               "React.js Enthusiast",
-              "UI/UX Focused",
+              "UI Focused",
+              "Integrated Backend with Express and mongoose",
             ]}
             typeSpeed={50}
             backSpeed={30}
             loop
           />
-          <p className="text-xl text-blue-400 mb-6">Frontend React Developer</p>
+          <p className="text-lg text-gray-300 mb-6">
+            A passionate Frontend Developer skilled in building modern, responsive, and user-friendly websites
+with React.js, Tailwind CSS, Express.js, and MongoDB. Committed to writing clean code, delivering
+efficient solutions, and constantly learning to improve.
+          </p>
           <a
             href="#projects"
-            className="bg-blue-600 text-white px-6 py-2 rounded-xl shadow hover:bg-blue-700 transition"
+            className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl shadow transition"
           >
             View Projects
           </a>
