@@ -274,13 +274,15 @@ efficient solutions, and constantly learning to improve.
             </div>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://cars-doctor-c40b8.web.app"
+                target="_blank"
                 className="text-blue-400 hover:underline hover:text-blue-300 transition"
               >
                 Live
               </a>
               <a
-                href="#"
+                href="https://github.com/mehedi1437/car-doctor-client"
+                target="_blank"
                 className="text-blue-400 hover:underline hover:text-blue-300 transition"
               >
                 GitHub
