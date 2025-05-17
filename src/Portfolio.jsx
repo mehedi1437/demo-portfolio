@@ -253,24 +253,23 @@ efficient solutions, and constantly learning to improve.
           {/* Project 3 */}
           <div className="bg-[#1e293b] rounded-xl shadow-md p-6 transition duration-300 hover:shadow-lg hover:-translate-y-1">
             <img
-              src=""
-              alt="Admin Dashboard"
+              src="https://i.ibb.co/cKGtV2w8/Screenshot-9.png"
+              alt="car Doctor"
               className="rounded-lg mb-4 w-full object-cover"
             />
-            <h3 className="text-xl font-bold mb-2">Admin Dashboard</h3>
+            <h3 className="text-xl font-bold mb-2">Car Repair Website</h3>
             <p className="mb-3 text-gray-300">
-              An admin dashboard with dynamic charts and analytics using React,
-              Recharts, and Tailwind.
+              This is a Car repair website . 
             </p>
             <div className="flex flex-wrap gap-2 mb-3">
               <span className="bg-purple-900/40 text-purple-300 text-sm px-3 py-1 rounded-full">
-                Recharts
+               React
               </span>
               <span className="bg-blue-900/40 text-blue-300 text-sm px-3 py-1 rounded-full">
-                React
+                Tailwind css
               </span>
               <span className="bg-gray-900/40 text-gray-300 text-sm px-3 py-1 rounded-full">
-                Tailwind
+                Express
               </span>
             </div>
             <div className="flex gap-4">
