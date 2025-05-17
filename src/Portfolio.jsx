@@ -221,13 +221,13 @@ export default function Portfolio() {
             </div>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://bistro-boss-38069.web.app"
                 className="text-blue-400 hover:underline hover:text-blue-300 transition"
               >
                 Live
               </a>
               <a
-                href="#"
+                href="https://github.com/mehedi1437/bistro-boss-client"
                 className="text-blue-400 hover:underline hover:text-blue-300 transition"
               >
                 GitHub
