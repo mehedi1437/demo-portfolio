@@ -190,24 +190,33 @@ export default function Portfolio() {
           {/* Project 2 */}
           <div className="bg-[#1e293b] rounded-xl shadow-md p-6 transition duration-300 hover:shadow-lg hover:-translate-y-1">
             <img
-              src=""
+              src="https://i.ibb.co/fz65RrzW/Screenshot-6.png"
               alt="E-Commerce Site"
               className="rounded-lg mb-4 w-full object-cover"
             />
-            <h3 className="text-xl font-bold mb-2">E-Commerce Website</h3>
+            <h3 className="text-xl font-bold mb-2">
+              Bistro Boss Resturant Website
+            </h3>
             <p className="mb-3 text-gray-300">
-              A full-featured e-commerce site with product listings, cart, and
-              secure checkout. Built with React & Firebase.
+              Bistro Boss is a full-featured restaurant web application with a
+              clean UI for customers and a powerful admin panel for managing
+              menu items, users, and orders.
             </p>
             <div className="flex flex-wrap gap-2 mb-3">
               <span className="bg-blue-900/40 text-blue-300 text-sm px-3 py-1 rounded-full">
                 React
               </span>
               <span className="bg-green-900/40 text-green-300 text-sm px-3 py-1 rounded-full">
+                Express
+              </span>
+              <span className="bg-red-900/40 text-red-300 text-sm px-3 py-1 rounded-full">
+                MongoDB
+              </span>
+              <span className="bg-green-900/40 text-green-300 text-sm px-3 py-1 rounded-full">
                 Firebase
               </span>
               <span className="bg-red-900/40 text-red-300 text-sm px-3 py-1 rounded-full">
-                Stripe
+               Admin panel
               </span>
             </div>
             <div className="flex gap-4">
@@ -502,7 +511,7 @@ export default function Portfolio() {
                   mdmehedihasan1437@gmail.com
                 </a>
               </li>
-              <li>📍 Chapai Nawabganj, Rajshahi,  Bangladesh</li>
+              <li>📍 Chapai Nawabganj, Rajshahi, Bangladesh</li>
               <li>📞 +880 1306504958</li>
             </ul>
           </div>
@@ -516,19 +525,18 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-               <svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 24 24"
-  fill="currentColor"
-  className="w-6 h-6 text-white"
->
-  <path
-    fillRule="evenodd"
-    d="M12 2C6.48 2 2 6.58 2 12.17c0 4.46 2.87 8.24 6.84 9.57.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.78.61-3.37-1.36-3.37-1.36-.46-1.18-1.12-1.49-1.12-1.49-.91-.64.07-.63.07-.63 1.01.07 1.54 1.06 1.54 1.06.9 1.56 2.36 1.11 2.94.85.09-.67.35-1.11.63-1.37-2.22-.26-4.55-1.14-4.55-5.05 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.29.1-2.69 0 0 .84-.27 2.75 1.02A9.3 9.3 0 0 1 12 6.8c.85.01 1.71.12 2.51.35 1.9-1.29 2.73-1.02 2.73-1.02.55 1.4.2 2.43.1 2.69.64.72 1.03 1.64 1.03 2.76 0 3.92-2.34 4.78-4.57 5.03.36.32.68.95.68 1.91 0 1.38-.01 2.49-.01 2.83 0 .27.18.58.69.48A10.18 10.18 0 0 0 22 12.17C22 6.58 17.52 2 12 2Z"
-    clipRule="evenodd"
-  />
-</svg>
-
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="w-6 h-6 text-white"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M12 2C6.48 2 2 6.58 2 12.17c0 4.46 2.87 8.24 6.84 9.57.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.78.61-3.37-1.36-3.37-1.36-.46-1.18-1.12-1.49-1.12-1.49-.91-.64.07-.63.07-.63 1.01.07 1.54 1.06 1.54 1.06.9 1.56 2.36 1.11 2.94.85.09-.67.35-1.11.63-1.37-2.22-.26-4.55-1.14-4.55-5.05 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.29.1-2.69 0 0 .84-.27 2.75 1.02A9.3 9.3 0 0 1 12 6.8c.85.01 1.71.12 2.51.35 1.9-1.29 2.73-1.02 2.73-1.02.55 1.4.2 2.43.1 2.69.64.72 1.03 1.64 1.03 2.76 0 3.92-2.34 4.78-4.57 5.03.36.32.68.95.68 1.91 0 1.38-.01 2.49-.01 2.83 0 .27.18.58.69.48A10.18 10.18 0 0 0 22 12.17C22 6.58 17.52 2 12 2Z"
+                    clipRule="evenodd"
+                  />
+                </svg>
               </a>
               <a
                 href="https://www.linkedin.com/in/mehedihasan1437/"
@@ -541,7 +549,6 @@ export default function Portfolio() {
                   alt="LinkedIn"
                 />
               </a>
-
             </div>
           </div>
         </div>
